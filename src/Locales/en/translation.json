@@ -1,0 +1,46 @@
+{
+  "languages": {
+    "en": "English",
+    "ru": "Russian",
+    "ua": "Ukrainian",
+    "current": "Current Language"
+  },
+  "pages": {
+    "main": "Main",
+    "about": "About Us",
+    "posts": "Posts",
+    "details": "Details"
+  },
+  "main": {
+    "about": "About Us",
+    "drops": "Posts",
+    "contacts": "Contact",
+    "tgButton": "Login via Telegram",
+    "tip": "Login will send your Telegram username. Your phone number remains hidden. We do not require a password."
+  },
+  "about": {
+    "title": "About Us",
+    "connectAdmin": "Contact Administrator",
+    "button": "Admin Name"
+  },
+  "header": {
+    "main": "Main",
+    "about": "About Us",
+    "drops": "Posts",
+    "contacts": "Contacts",
+    "current": "Current Language"
+  },
+  "drops": "Posts",
+  "details": {
+    "button": "Back",
+    "links": "Links",
+    "list": "Authors",
+    "documentButton": "Click to open the document",
+    "payments": "For development:"
+  },
+  "carousel": {
+    "image": "All photos",
+    "video": "Video"
+  },
+  "localisation": "en"
+}

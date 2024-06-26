@@ -1,0 +1,82 @@
+.pagination {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center;
+  padding-bottom: 2rem;
+  margin-right: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.next,
+.previous {
+  border-radius: 10px;
+}
+
+.next:hover,
+.previous:hover {
+  outline: 2px solid #c4071177;
+}
+
+.next.disabled,
+.previous.disabled {
+  display: none;
+}
+
+.break {
+  text-align: center;
+  border-radius: 12px;
+}
+
+.break:hover {
+  outline: 2px solid #c4071177;
+}
+
+a[role="button"] {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.page {
+  height: fit-content;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.page:hover {
+  outline: 2px solid #c4071177;
+}
+
+.choosen {
+  background-color: #c40710;
+  outline: 2px solid #c40710;
+  font-weight: 700;
+}
+
+.choosen:hover {
+  background-color: #c4071177;
+}
+
+@media screen and (max-width: 640px) {
+  .pagination {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 505px) {
+  .pagination {
+    gap: 0.2rem;
+  }
+
+  a[role="button"] {
+    display: block;
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+  }
+}
